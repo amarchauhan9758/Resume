@@ -7,6 +7,7 @@ import { ImLocation2 } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { ImSkype } from "react-icons/im";
 import { RiWhatsappFill } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
 
 function Contact() {
   return (
@@ -16,43 +17,48 @@ function Contact() {
             <div className='col-span-3  '>
               <div className="flex justify-center items-center space-x-4 text-lg">
                 <BsFillTelephoneFill className='text-2xl text-sky-400' />
-                <p>+91 9389725398</p>
+                <p>+91 7983779331</p>
               </div>
             </div>
             <div className='col-span-3 '>
               <div className="flex justify-center items-center space-x-4 text-lg">
                 <MdMarkEmailUnread className='text-2xl text-red-500'/>
-                <p>Bhattkailash786@gmail.com</p>
+                <p>amarchauhan06232@gmail.com</p>
               </div>
             </div>
             <div className='col-span-3'>
               <div className="flex justify-center items-center space-x-4 text-lg">
                 <FaLinkedinIn className='text-2xl text-blue-500'/>
-                <p>https://www.linkedin.com/in/kailash-bhatt-7571991b4</p>
+                <p>
+                  <a  target="/blank" href="https://www.linkedin.com/in/amar-singh-chauhan-a0267b193/">Amar Singh Chauhan</a>
+                </p>
               </div>
             </div>
             <div className='col-span-3'>
               <div className="flex justify-center items-center space-x-4 text-lg">
                 <ImLocation2 className='text-2xl text-green-600'/>
-                <p>Kashipur , Uttrakhand (INDIA)</p>
-              </div>
-            </div>
-            <div className='col-span-1'>
-              <div className="flex justify-center items-center space-x-4 text-lg">
-                <FaGithub className='text-2xl text-black'/>
-                <p>KAI123-del</p>
+                <p>Bareilly , UttarPradesh (INDIA)</p>
               </div>
             </div>
             <div className='col-span-3 '>
+              <div className="flex justify-center items-center space-x-4 text-lg">
+                <FaGithub className='text-2xl text-black'/>
+                <p>
+                <a  target="/blank" href="https://github.com/amarchauhan9758/">amarchauhan9758</a>
+
+                </p>
+              </div>
+            </div>
+            {/* <div className='col-span-2 '>
               <div className="flex  justify-center space-x-4  items-center text-lg">
                 <ImSkype className='text-2xl text-sky-400 ' />
                 <p> https://join.skype.com/invite/wBxbOOgIdEwc</p>
               </div>
-            </div>
-            <div className='col-span-2  '>
-              <div className="flex text-start justify-start items-center space-x-4 text-lg">
+            </div> */}
+            <div className='col-span-3  '>
+              <div className="flex text-start justify-center items-center space-x-4 text-lg">
                 <RiWhatsappFill className='text-2xl text-green-500'/>
-                <p>9389725398</p>
+                <p>7983779331</p>
               </div>
             </div>
 
